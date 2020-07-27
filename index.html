@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Page Title</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="left-side">
+                    <div class="nav-link-wrapper active-nav-link">
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div class="nav-link-wrapper">
+                        <a href="about.html">About</a>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="brand">
+                        <div>UDIT KHEMKA</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-wrapper">
+                <div class="portfolio-items-wrapper">
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-background" style="background-image: url(images/web-app-dev.jpeg);">
+                        </div>
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                
+                            </div>
+
+                            <div class="subtitle">
+                                The Website gives you the weather updates of a place user enters or 
+                                the current location's weather.
+                            </div>
+                            <div class="plink">
+                                <a href="welcome.html">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-background" style="background-image: url(images/img1.jpg);">
+                        </div>
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="images/logos/crondose.png">
+                            </div>
+
+                            <div class="subtitle">
+                                Project 2
+                            </div>
+                            <div class="plink">
+                                <a href="welcome.html">Visit Website</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-background" style="background-image: url(images/img2.jpg);">
+                        </div>
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="images/logos/dailysmarty.png">
+                            </div>
+
+                            <div class="subtitle">
+                                Coming Soon
+                            </div>
+                            <div class="plink">
+                                <a href="welcome.html">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-background" style="background-image: url(images/img3.jpg);">
+                        </div>
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="images/logos/dashtrack.png">
+                            </div>
+
+                            <div class="subtitle">
+                                Coming Soon
+                            </div>
+                            <div class="plink">
+                                <a href="welcome.html">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-background" style="background-image: url(images/portfolio2.jpeg);">
+                        </div>
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="images/logos/devcamp.png">
+                            </div>
+
+                            <div class="subtitle">
+                                Coming Soon
+                            </div>
+                            <div class="plink">
+                                <a href="welcome.html">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-background" style="background-image: url(images/portfolio4.jpeg);">
+                        </div>
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="images/logos/devtrunk.png">
+                            </div>
+
+                            <div class="subtitle">
+                                Coming Soon
+                            </div>
+                            <div class="plink">
+                                <a href="welcome.html">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-background" style="background-image: url(images/portfolio9.jpeg);">
+                        </div>
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="images/logos/edutechional.png">
+                            </div>
+
+                            <div class="subtitle">
+                                Coming Soon
+                            </div>
+                            <div class="plink">
+                                <a href="welcome.html">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-background" style="background-image: url(images/portfolio8.jpeg);">
+                        </div>
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="images/logos/shop-hacker.png">
+                            </div>
+
+                            <div class="subtitle">
+                                Coming Soon
+                            </div>
+                            <div class="plink">
+                                <a href="welcome.html">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-background" style="background-image: url(images/portfolio7.jpeg);">
+                        </div>
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="images/logos/quip.png">
+                            </div>
+
+                            <div class="subtitle">
+                                Coming Soon
+                            </div>
+                            <div class="plink">
+                                <a href="welcome.html">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </body>
+    <script>
+        const portfolioItems= document.querySelectorAll('.portfolio-item-wrapper')
+
+        portfolioItems.forEach(portfolioItem => {
+            portfolioItem.addEventListener('mouseover',()=>{
+                console.log(portfolioItem.childNodes[1].classList.add('img-darken'))
+                portfolioItem.childNodes[1].classList.add('img-darken');
+            })
+
+            portfolioItem.addEventListener('mouseout',()=>{
+                portfolioItem.childNodes[1].classList.remove('img-darken');
+            })
+        })
+    </script>
+</html>
