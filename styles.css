@@ -115,16 +115,7 @@ body{
     color: white;
 }
 
-/*about.html styles*/
-.content-aboutpage{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 
-.profile{
-    height: 300px;
-    width: 100%;
-}
 
 /*      ....        */
 .info{
