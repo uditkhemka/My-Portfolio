@@ -112,3 +112,21 @@
 .atcoder p{
     display: inline-block;
 }
+
+img {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 1.25rem;
+    align-self: center;
+}
+
+#boxn {
+    margin: 0.2rem 9rem 0.5rem 6rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#boxn .btn{
+    margin-top: 20px;
+}
