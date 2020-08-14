@@ -78,6 +78,11 @@
     position: relative;
 }
 
+.column1 > img{
+    width: 500px;
+    height: 500px;
+}
+
 .column2 h3 {
     font-size: 35px;
     margin-bottom: 20px;
@@ -97,36 +102,37 @@
     padding-right: 100px;
 }
 
-.cf p{
+.logos{
+    display: block;
+
+}
+
+
+.cent{
     display: inline-block;
 }
 
-.ccf p{
-    display: inline-block;
+.cent > button{
+    margin-top: 50px;
+    margin-left: 10px;
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  opacity: 0.75;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  /*display: inline-block;          */
 }
 
-.hack p{
-    display: inline-block;
-}
-
-.atcoder p{
-    display: inline-block;
-}
-
-img {
-    height: 6rem;
-    width: 6rem;
-    border-radius: 1.25rem;
-    align-self: center;
-}
-
-#boxn {
-    margin: 0.2rem 9rem 0.5rem 6rem;
-    display: flex;
-    flex-direction: column;
+.cent > button:hover {
     
+    opacity: 1;
+    transition: 0.4s;
 }
 
-#boxn .btn{
-    margin-top: 20px;
+.cent > img{
+    width: 150px;
+    height: 150px;
 }
