@@ -84,8 +84,8 @@
     align-items: center;
     height: 100%;
     text-align: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 190px;
+    padding-right: 190px;
 }
 
 .subtitle{
@@ -111,13 +111,13 @@
 }
 
 .plink a:link {
-  color:rgb(223, 116, 136);
+    color: #faf9f9;
   background-color: transparent;
   text-decoration: none;
   opacity: 0.1;
 }
 .plink a:visited {
-  color: rgb(252, 246, 247);
+  color: #faf9f9;
   background-color: transparent;
   text-decoration: none;
   opacity: 0.1;
@@ -125,9 +125,9 @@
 .plink a:hover {
   color: #faf9f9;
   background-color: transparent;
-  text-decoration: underline;
+  
   opacity: 1;
-  font-size: 18px;
+  font-size: 19px;
   transition: 0.5s;
 }
 
