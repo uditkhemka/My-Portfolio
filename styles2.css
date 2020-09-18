@@ -78,6 +78,11 @@
     position: relative;
 }
 
+.info{
+    height: 512px;
+}
+
+
 .column1 > img{
     width: 500px;
     height: 500px;
@@ -108,8 +113,10 @@
 }
 
 
+
 .cent{
     display: inline-block;
+    padding: 0px 11%;
 }
 
 .cent > button{
